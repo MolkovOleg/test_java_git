@@ -1,8 +1,13 @@
 package GitTest;
 
+import java.util.Scanner;
+
 public class FormatNumberByThousands {
     public static void main(String[] args) {
-        String number = "12345678";
+        Scanner console = new Scanner(System.in);
+
+        System.out.print("Введите число: ");
+        String number = console.nextLine();
         String delimeter = ",";
 
         String formattedNumber = formatNumberWithDelimeter(number, delimeter);

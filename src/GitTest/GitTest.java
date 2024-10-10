@@ -5,5 +5,6 @@ public class GitTest {
         System.out.println("There is nothing to read here!");
         System.out.println("Just learn Git");
         System.out.println("Keep walking away!");
+        System.out.println("Your are good!");
     }
 }
